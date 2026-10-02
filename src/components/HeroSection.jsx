@@ -65,11 +65,13 @@ export const HeroSection = ({
           muted
           playsInline
           preload="metadata"
+          poster="/images/hero_dubai_skyline_1790842330436.jpg"
           className="w-full h-full object-cover object-center transform scale-[1.03]"
         >
+          <source src="/images/bg.mp4" type="video/mp4" />
           <source src={video} type="video/mp4" />
           <img
-            src={video}
+            src="/images/hero_dubai_skyline_1790842330436.jpg"
             alt="Dubai Skyline"
             loading="eager"
             decoding="async"

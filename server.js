@@ -36,7 +36,10 @@ async function startServer() {
     });
   });
 
-  // Serve static assets from public folder (videos, posters, favicon)
+  // Serve static assets from public folder (images, videos, posters, favicon)
+  app.use('/images', express.static(path.join(__dirname, 'public', 'images')));
+  app.use('/videos', express.static(path.join(__dirname, 'public', 'videos')));
+  app.use('/src/assets/images', express.static(path.join(__dirname, 'public', 'images')));
   app.use(express.static(path.join(__dirname, 'public')));
 
   // Vite integration

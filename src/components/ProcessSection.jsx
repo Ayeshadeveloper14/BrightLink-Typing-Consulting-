@@ -62,7 +62,7 @@ export const ProcessSection = ({ onOpenConsultation }) => {
           className="absolute -top-[25%] -bottom-[25%] left-0 right-0 w-full will-change-transform"
         >
           <img
-            src={processBg}
+            src={processBg || "/images/process_bg_skyline_1790959277672.jpg"}
             alt="Dubai Business Bay and Government District Architecture"
             className="w-full h-full object-cover object-center scale-105"
             loading="lazy"
