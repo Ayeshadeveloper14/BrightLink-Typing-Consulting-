@@ -43,7 +43,7 @@ export const AboutSection = ({ onOpenConsultation, onExploreServices }) => {
           >
             <div className="relative rounded-2xl overflow-hidden shadow-xl border-4 border-white bg-neutral-100 aspect-[4/3] group">
               <img
-                src="/src/assets/images/about_visa_consultant_1790842347102.jpg"
+                src="https://website-imges.vercel.app/about_visa_consultant_1790842347102.jpg"
                 alt="BrightLink senior consultant assisting client in Dubai"
                 loading="lazy"
                 decoding="async"
